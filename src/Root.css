@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&family=Unbounded:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+/* === Root === */
+:root {
+  /* === Font Size === */
+  --fs_xsm: 12px;
+  --fs_sm: 14px;
+  --fs_md: 16px;
+  --fs_lg: 18px;
+  --fs_xl: 20px;
+  --fs_xxl: 32px;
+  --fs_2xl: 30px;
+  /* --fs_3xl: 35px;
+  --fs_4xl: 25px;
+  --fs_5xl: 50px; */
+  /* === Font Weight === */
+  --fw_medium: 500;
+  /* === Font Family === */
+  --ff_inter: "Inter", sans-serif;
+  --ff_poppins: "Poppins", sans-serif;
+  --ff_unbounded: "Unbounded", cursive;
+  /* === Text Color === */
+  --tc_primary: #1e1e1e;
+  /* --tc_secondary: #e1e1e1;
+  --tc_danger: #841002;
+  --tc_body: #f2f2f2;
+  --tc_info: #878787;
+  --tc_warning: #c51304; */
+  /* === Background Color === */
+  --bg_primary: #1e1e1e;
+  --bg_dark: #070a0e;
+  /* --bg_secondary: #e1e1e1;
+  --bg_danger: #841002;
+  --bg_body: #f2f2f2;
+  --bg_info: #878787; */
+}
+
+/* === Font Size === */
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+
+.fs_md {
+  font-size: var(--fs_md);
+}
+
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+  font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+  font-size: var(--fs_2xl);
+}
+
+/* .fs_3xl {
+  font-size: var(--fs_3xl);
+}
+
+.fs_4xl {
+  font-size: var(--fs_4xl);
+}
+
+.fs_5xl {
+  font-size: var(--fs_5xl);
+} */
+
+/* === Font Weight === */
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+
+/* === Font Family === */
+.ff_inter {
+  font-family: var(--ff_inter);
+}
+.ff_poppins {
+  font-family: var(--ff_poppins);
+}
+.ff_unbounded {
+  font-family: var(--ff_unbounded);
+}
+
+/* === Text Color === */
+.tc_primary {
+  color: var(--tc_primary);
+}
+/* 
+.tc_secondary {
+  color: var(--tc_secondary);
+}
+
+.tc_info {
+  color: var(--tc_info);
+}
+
+.tc_body {
+  color: var(--tc_body);
+}
+
+.tc_danger {
+  color: var(--tc_danger);
+}
+
+.tc_warning {
+  color: var(--tc_warning);
+} */
+
+/* === Background Color === */
+.bg_primary {
+  background-color: var(--bg_primary);
+}
+.bg_dark {
+  background-color: var(--bg_dark);
+}
+/* 
+.bg_secondary {
+  background-color: var(--bg_secondary);
+}
+
+.bg_danger {
+  background-color: var(--bg_danger);
+}
+
+.bg_info {
+  background-color: var(--bg_info);
+}
+
+.bg_body {
+  background-color: var(--bg_body);
+} */
+
+@media (min-width: 1200px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 12px;
+    --fs_sm: 16px;
+    --fs_md: 17.87px;
+    --fs_lg: 20px;
+    --fs_xl: 22.34px;
+    --fs_xxl: 36px;
+    --fs_2xl: 38px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    /* === Font Size === */
+    --fs_xsm: 12px;
+    --fs_sm: 16px;
+    --fs_md: 17.87px;
+    --fs_lg: 20px;
+    --fs_xl: 22.34px;
+    --fs_xxl: 40px;
+    --fs_2xl: 48px;
+  }
+}
